@@ -1,0 +1,16 @@
+{
+    "name": "wcs/myproject",
+    "description": "my first project with composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Antoine",
+            "email": "Antoine.kuntz113@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+
+}

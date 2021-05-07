@@ -1,0 +1,19 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+    <h1>Products :</h1>
+
+    
+            {% for product in products %}
+
+                {{ product }}  
+                     {% if ( loop.index %3 ) == 0 %} 
+                        </br>
+                {% endif %}    
+            {% endfor %}
+        </br>
+
+    {{ dump(products) }}
+
+{% endblock %}
